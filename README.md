@@ -118,7 +118,7 @@ Inside the shell, run the following Python commands:
 from listings.models import Listing
 from listings.serializers import ListingSerializer
 
-# Check counts
+# Check count
 print(f"Total Listings: {Listing.objects.count()}")
 
 # Test serializer logic on the first listing
